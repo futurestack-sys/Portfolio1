@@ -27,3 +27,6 @@ if (toggle && navLinks) {
 
 const year = document.querySelector("#year");
 if (year) year.textContent = new Date().getFullYear();
+
+const printResume = document.querySelector("#print-resume");
+if (printResume) printResume.addEventListener("click", () => window.print());
